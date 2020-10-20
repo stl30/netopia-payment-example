@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "621b742000b2d0821b52962738360111",
+    "content-hash": "c2c0890246f2e2107d54636d23ad49fa",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1007,6 +1007,44 @@
                 }
             ],
             "time": "2020-10-12T20:36:09+00:00"
+        },
+        {
+            "name": "netopia/payment",
+            "version": "v1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mobilpay/composer.git",
+                "reference": "f9693a44fd3f12086d6ebaa6222c8eac29490552"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mobilpay/composer/zipball/f9693a44fd3f12086d6ebaa6222c8eac29490552",
+                "reference": "f9693a44fd3f12086d6ebaa6222c8eac29490552",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-simplexml": "*",
+                "php": ">=5.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Netopia\\Payment\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "AGPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "NETOPIA Payments",
+                    "email": "implementare@netopia-system.com"
+                }
+            ],
+            "description": "Set of library that give you the means to incorporate NETOPIA Payments functionality into your website applications and mobile apps.",
+            "time": "2020-09-11T12:02:38+00:00"
         },
         {
             "name": "nikic/php-parser",
